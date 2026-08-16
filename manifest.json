@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "KineticPlex Web",
+  "version": "1.0.0",
+  "description": "Extensión web para la traducción de texto a lengua de señas en 3D.",
+  "action": {
+    "default_popup": "index.html"
+  },
+  "permissions": [
+    "activeTab",
+    "storage"
+  ],
+  "host_permissions": [
+    "http://localhost:5000/*",
+    "http://localhost:5173/*"
+  ],
+  "background": {
+    "service_worker": "src/background.ts",
+    "type": "module"
+  }
+}
