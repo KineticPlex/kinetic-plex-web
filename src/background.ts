@@ -1,1 +1,5 @@
-console.log("Background service worker de KineticPlex iniciado.");
+chrome.action.onClicked.addListener((tab) => {
+  if (tab.id) {
+    chrome.tabs.sendMessage(tab.id, { action: "toggle_sign-language-ext" });
+  }
+});
