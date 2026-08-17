@@ -22,15 +22,9 @@ const App: React.FC = () => {
 
   return (
     <div className="sign-language-ext-panel">
-      <button 
-        className="sign-language-ext-close-btn" 
-        onClick={() => setIsVisible(false)}
-        title="Cerrar"
-      >
-        ✕
-      </button>
-
-      <MainPage />
+      <MainPage
+        setIsVisible={(value: boolean) => setIsVisible(value)}
+      />
     </div>
   );
 };
