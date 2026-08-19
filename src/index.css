@@ -5,18 +5,45 @@
   z-index: 999999;
 }
 
+@keyframes signLanguageExtlideFadeIn {
+  0% {
+    opacity: 0;
+    transform: translate(40px, -40px);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes signLanguageExtlideFadeOut {
+  0% {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
+  100% {
+    opacity: 0;
+    transform: translate(40px, -40px);
+  }
+}
+
 .sign-language-ext-panel {
   width: 400px;
   height: 550px;
-  background-color: rgba(255, 255, 255, 0.85);
-  backdrop-filter: blur(12px);
-  border-radius: 16px;
-  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
-  border: 1px solid rgba(200, 200, 200, 0.5);
+  background: radial-gradient(circle at top left, rgba(3, 75, 164, .9) 0%, rgba(0, 0, 0, 0.6) 60%);
+  color: #ffffff; 
+  backdrop-filter: blur(8px);
+  border-radius: 35px;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.4);
   overflow: hidden;
   display: flex;
   flex-direction: column;
   position: relative; 
+  animation: signLanguageExtlideFadeIn 0.4s cubic-bezier(0.2, 0.8, 0.2, 1) forwards;
+}
+
+.sign-language-ext-panel.closing {
+  animation: signLanguageExtlideFadeOut 0.4s cubic-bezier(0.2, 0.8, 0.2, 1) forwards;
 }
 
 .sign-language-ext-panel * {
