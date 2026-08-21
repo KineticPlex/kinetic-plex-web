@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useEffect } from 'react';
 import './main-page.css';
 import TranslationRequestService from '../../services/translation-request-service';
 import type { CreateOrUpdateTranslationRequest } from '../../dtos/translation-requests/create-or-update-translation-request';
