@@ -1,8 +1,60 @@
+@font-face {
+  font-family: Roboto-Black;
+  src: url(/fonts/roboto/Roboto-Black.ttf);
+}
+
+@font-face {
+  font-family: Roboto-Bold;
+  src: url(/fonts/roboto/Roboto-Bold.ttf);
+}
+
+@font-face {
+  font-family: Roboto-Medium;
+  src: url(/fonts/roboto/Roboto-Medium.ttf);
+}
+
+@font-face {
+  font-family: Roboto-Regular;
+  src: url(/fonts/roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+  font-family: Roboto-Light;
+  src: url(/fonts/roboto/Roboto-Light.ttf);
+}
+
+
 #sign-language-ext-root {
   position: fixed;
   top: 20px;
   right: 20px;
   z-index: 999999;
+}
+
+.sign-language-ext-panel {
+  padding: 20px 30px 30px 30px;
+  width: 400px;
+  height: 550px;
+  background: linear-gradient(to bottom, rgba(0, 255, 137, 0.6), rgba(0, 163, 255, 0.6));
+  color: #ffffff; 
+  backdrop-filter: blur(8px);
+  border-radius: 35px;
+  box-shadow: 0 50px 40px -30px rgba(0, 0, 0, 0.4);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  position: relative; 
+  animation: signLanguageExtlideFadeIn 0.4s cubic-bezier(0.2, 0.8, 0.2, 1) forwards;
+}
+
+.sign-language-ext-panel.closing {
+  animation: signLanguageExtlideFadeOut 0.4s cubic-bezier(0.2, 0.8, 0.2, 1) forwards;
+}
+
+.sign-language-ext-panel * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 @keyframes signLanguageExtlideFadeIn {
@@ -25,29 +77,4 @@
     opacity: 0;
     transform: translate(40px, -40px);
   }
-}
-
-.sign-language-ext-panel {
-  width: 400px;
-  height: 550px;
-  background: radial-gradient(circle at top left, rgba(3, 75, 164, .9) 0%, rgba(0, 0, 0, 0.6) 60%);
-  color: #ffffff; 
-  backdrop-filter: blur(8px);
-  border-radius: 35px;
-  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.4);
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  position: relative; 
-  animation: signLanguageExtlideFadeIn 0.4s cubic-bezier(0.2, 0.8, 0.2, 1) forwards;
-}
-
-.sign-language-ext-panel.closing {
-  animation: signLanguageExtlideFadeOut 0.4s cubic-bezier(0.2, 0.8, 0.2, 1) forwards;
-}
-
-.sign-language-ext-panel * {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
 }

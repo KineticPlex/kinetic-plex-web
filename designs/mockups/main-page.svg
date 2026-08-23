@@ -9,12 +9,12 @@
    id="svg1"
    inkscape:version="1.4.4 (dcaf3e7, 2026-05-05)"
    sodipodi:docname="main-page.svg"
+   xml:space="preserve"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <sodipodi:namedview
+   xmlns:svg="http://www.w3.org/2000/svg"><sodipodi:namedview
      id="namedview1"
      pagecolor="#ffffff"
      bordercolor="#000000"
@@ -26,105 +26,87 @@
      inkscape:document-units="mm"
      showguides="false"
      inkscape:zoom="1.1182982"
-     inkscape:cx="70.195948"
-     inkscape:cy="232.94324"
+     inkscape:cx="-76.455457"
+     inkscape:cy="414.46906"
      inkscape:window-width="1920"
-     inkscape:window-height="1052"
-     inkscape:window-x="1920"
-     inkscape:window-y="28"
+     inkscape:window-height="1080"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
      inkscape:window-maximized="0"
-     inkscape:current-layer="layer1">
-    <sodipodi:guide
+     inkscape:current-layer="layer1"><sodipodi:guide
        position="13.407809,158.75"
        orientation="0,-1"
        id="guide1"
-       inkscape:locked="false" />
-    <sodipodi:guide
+       inkscape:locked="false" /><sodipodi:guide
        position="68.298506,-3.0079642e-14"
        orientation="0,-1"
        id="guide2"
-       inkscape:locked="false" />
-    <sodipodi:guide
+       inkscape:locked="false" /><sodipodi:guide
        position="0,48.984542"
        orientation="1,0"
        id="guide3"
-       inkscape:locked="false" />
-    <sodipodi:guide
+       inkscape:locked="false" /><sodipodi:guide
        position="105.83334,36.78838"
        orientation="1,0"
        id="guide4"
-       inkscape:locked="false" />
-    <sodipodi:guide
+       inkscape:locked="false" /><sodipodi:guide
        position="14.378978,90.470252"
        orientation="1,0"
        id="guide5"
-       inkscape:locked="false" />
-    <sodipodi:guide
+       inkscape:locked="false" /><sodipodi:guide
        position="91.453969,97.952856"
        orientation="1,0"
        id="guide6"
-       inkscape:locked="false" />
-    <sodipodi:guide
+       inkscape:locked="false" /><sodipodi:guide
        position="18.57004,142.02023"
        orientation="1,0"
        id="guide7"
-       inkscape:locked="false" />
-    <sodipodi:guide
+       inkscape:locked="false" /><sodipodi:guide
        position="86.994782,61.884653"
        orientation="1,0"
        id="guide8"
-       inkscape:locked="false" />
-    <sodipodi:guide
+       inkscape:locked="false" /><sodipodi:guide
        position="63.740408,67.405476"
        orientation="0,-1"
        id="guide9"
-       inkscape:locked="false" />
-    <sodipodi:guide
+       inkscape:locked="false" /><sodipodi:guide
        position="55.877419,49.83922"
        orientation="0,-1"
        id="guide10"
-       inkscape:locked="false" />
-  </sodipodi:namedview>
-  <defs
-     id="defs1">
-    <rect
+       inkscape:locked="false" /><sodipodi:guide
+       position="56.964851,134.82643"
+       orientation="0,-1"
+       id="guide11"
+       inkscape:locked="false" /></sodipodi:namedview><defs
+     id="defs1"><rect
        x="70.185979"
        y="345.23914"
        width="258.6132"
        height="66.39215"
-       id="rect12" />
-    <rect
+       id="rect12" /><rect
        x="-319.9469"
        y="139.73965"
        width="195.38259"
        height="100.53667"
-       id="rect11" />
-    <linearGradient
+       id="rect11" /><linearGradient
        id="linearGradient7"
-       inkscape:collect="always">
-      <stop
-         style="stop-color:#7eff00;stop-opacity:1;"
+       inkscape:collect="always"><stop
+         style="stop-color:#00ff89;stop-opacity:1;"
          offset="0"
-         id="stop7" />
-      <stop
+         id="stop7" /><stop
          style="stop-color:#ff4c00;stop-opacity:0;"
          offset="1"
-         id="stop8" />
-    </linearGradient>
-    <filter
+         id="stop8" /></linearGradient><filter
        inkscape:collect="always"
        style="color-interpolation-filters:sRGB"
        id="filter25"
        x="-0.16176221"
        y="-0.11437732"
        width="1.3235244"
-       height="1.2287546">
-      <feGaussianBlur
+       height="1.2287546"><feGaussianBlur
          inkscape:collect="always"
          stdDeviation="13.129836"
-         id="feGaussianBlur25" />
-    </filter>
-    <linearGradient
+         id="feGaussianBlur25" /></filter><linearGradient
        inkscape:collect="always"
        xlink:href="#linearGradient7"
        id="linearGradient8"
@@ -133,11 +115,9 @@
        x2="17.649204"
        y2="274.85583"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="translate(-100.61726,-75.679305)" />
-    <mask
+       gradientTransform="translate(-100.61726,-75.679305)" /><mask
        maskUnits="userSpaceOnUse"
-       id="mask8">
-      <rect
+       id="mask8"><rect
          style="display:inline;fill:#ff3200;fill-opacity:1;fill-rule:nonzero;stroke-width:25;stroke-linecap:round"
          id="rect8"
          width="194.80203"
@@ -145,15 +125,11 @@
          x="-180.36906"
          y="-35.977348"
          ry="0"
-         rx="27.828863" />
-    </mask>
-  </defs>
-  <g
+         rx="27.828863" /></mask></defs><g
      inkscape:label="main-page"
      inkscape:groupmode="layer"
-     id="layer1">
-    <rect
-       style="display:inline;fill:#ffffff;fill-opacity:1;stroke-width:25;stroke-linecap:round"
+     id="layer1"><rect
+       style="display:inline;fill:#e3fff6;fill-opacity:1;stroke-width:25;stroke-linecap:round"
        id="rect1"
        width="105.83334"
        height="158.75"
@@ -161,8 +137,7 @@
        y="0"
        rx="0"
        ry="0"
-       inkscape:label="background" />
-    <rect
+       inkscape:label="background" /><rect
        style="display:inline;fill:#0066a9;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:62.0675;stroke-linecap:round;stroke-opacity:1;filter:url(#filter25);opacity:0.6"
        id="rect1-2-6"
        width="194.80203"
@@ -172,8 +147,7 @@
        ry="0"
        rx="27.828863"
        transform="matrix(0.40278646,0,0,0.40278646,13.68486,24.677852)"
-       inkscape:label="shadow" />
-    <rect
+       inkscape:label="shadow" /><rect
        style="display:inline;fill:#00a3ff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:25;stroke-linecap:round;stroke-opacity:1;opacity:0.6"
        id="rect1-2"
        width="90.483269"
@@ -182,8 +156,7 @@
        y="15.390401"
        ry="0"
        rx="12.926182"
-       inkscape:label="container" />
-    <rect
+       inkscape:label="container" /><rect
        style="display:inline;fill:url(#linearGradient8);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:25;stroke-linecap:round"
        id="rect24-8"
        width="194.80203"
@@ -194,47 +167,52 @@
        rx="27.828865"
        mask="url(#mask8)"
        transform="matrix(0.46448832,0,0,0.46448832,91.454354,32.101459)"
-       inkscape:label="container-gradient" />
-    <g
+       inkscape:label="container-gradient" /><g
        id="g7"
        inkscape:label="menu"
-       transform="translate(0,-2.6458334)">
-      <g
+       transform="translate(0,-2.6458334)"><g
          id="g6"
          inkscape:label="buttons"
-         transform="translate(0,-1.2421236)">
-        <g
+         transform="translate(0,-1.2421236)"><g
            id="g1"
-           inkscape:label="send-button">
-          <circle
+           inkscape:label="send-button"><circle
              style="opacity:1;fill:#00d659;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:25;stroke-linecap:round;stroke-opacity:1"
              id="path25"
              cx="53.071079"
              cy="129.57298"
              r="7.0774999"
-             inkscape:label="background" />
-          <path
+             inkscape:label="background" /><path
              id="path1-4"
              style="fill:#ffffff;stroke:none;stroke-width:25;stroke-linecap:round"
              d="m 48.988066,127.55296 1.837402,1.70411 5.271786,-1.10327 -4.476055,1.97392 0.252833,2.40055 1.208539,-0.8077 1.350586,1.47239 2.720935,-5.49016 z"
-             inkscape:label="papel-plane" />
-        </g>
-        <circle
-           style="fill:#ffffff;fill-opacity:0.35;fill-rule:nonzero;stroke:none;stroke-width:25;stroke-linecap:round;stroke-opacity:1"
-           id="path25-0"
-           cx="75.662407"
-           cy="129.57298"
-           r="5.9775"
-           inkscape:label="subtitle-button" />
-        <circle
-           style="fill:#ffffff;fill-opacity:0.35;fill-rule:nonzero;stroke:none;stroke-width:25;stroke-linecap:round;stroke-opacity:1"
-           id="path25-0-1"
-           cx="30.47975"
-           cy="129.57298"
-           r="5.9775"
-           inkscape:label="todo-button" />
-      </g>
-      <rect
+             inkscape:label="papel-plane" /></g><g
+           id="g4"
+           inkscape:label="repeat-button"><circle
+             style="fill:#ffffff;fill-opacity:0.35;fill-rule:nonzero;stroke:none;stroke-width:25;stroke-linecap:round;stroke-opacity:1"
+             id="path25-0-1"
+             cx="30.47975"
+             cy="129.57298"
+             r="5.9775"
+             inkscape:label="background" /><path
+             id="path1"
+             style="fill:#ffffff;fill-opacity:1;stroke-width:9.81656"
+             d="m 32.480274,126.84598 -0.43911,0.55938 a 2.6867788,2.6867788 0 0 0 -3.623055,0.52181 2.6867788,2.6867788 0 0 0 0.405872,3.77794 2.6867788,2.6867788 0 0 0 3.77794,-0.40587 2.6867788,2.6867788 0 0 0 0.07772,-0.1013 l -0.7232,-0.58289 -0.01817,0.003 a 1.7463585,1.7463585 0 0 1 -0.06856,0.0909 1.7463585,1.7463585 0 0 1 -2.455589,0.26382 1.7463585,1.7463585 0 0 1 -0.263808,-2.45558 1.7463585,1.7463585 0 0 1 2.298312,-0.37678 l 0.01778,-0.003 -0.469816,0.59854 2.139673,0.15216 z"
+             inkscape:export-filename="../../src/assets/icons/refresh.png"
+             inkscape:export-xdpi="96"
+             inkscape:export-ydpi="96"
+             inkscape:label="refresh" /></g><g
+           id="g3"
+           inkscape:label="close-caption-button"><circle
+             style="fill:#ffffff;fill-opacity:0.35;fill-rule:nonzero;stroke:none;stroke-width:25;stroke-linecap:round;stroke-opacity:1"
+             id="path25-0"
+             cx="75.662407"
+             cy="129.57298"
+             r="5.9775"
+             inkscape:label="background" /><path
+             id="rect1-1"
+             style="fill:#ffffff;fill-opacity:1;stroke-width:0.529167;stroke-linecap:round"
+             d="m 72.543689,127.57048 v 4.005 h 6.237435 v -4.005 z m 0.636262,2.07344 h 2.586769 v 0.50931 h -2.586769 z m 0,0.89207 h 1.755771 v 0.50932 h -1.755771 z m 2.150301,0 h 2.814612 v 0.50932 h -2.814612 z"
+             inkscape:label="close-caption" /></g></g><rect
          style="display:inline;opacity:0.266958;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:25;stroke-linecap:round;stroke-opacity:1"
          id="rect25-6"
          width="77.074997"
@@ -242,9 +220,7 @@
          x="14.379169"
          y="118.42174"
          rx="6"
-         inkscape:label="menu-background" />
-    </g>
-    <text
+         inkscape:label="menu-background" /></g><text
        xml:space="preserve"
        style="font-size:3.98412px;line-height:41.5013px;font-family:Roboto;-inkscape-font-specification:Roboto;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;opacity:0.8;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:25;stroke-linecap:round;stroke-opacity:1"
        x="42.117912"
@@ -255,8 +231,7 @@
          id="tspan25"
          style="font-style:normal;font-variant:normal;font-weight:800;font-stretch:normal;font-family:Roboto;-inkscape-font-specification:'Roboto Ultra-Bold';fill:#ffffff;fill-opacity:1;stroke-width:25"
          x="42.117912"
-         y="24.931486">Kinetic Plex</tspan></text>
-    <text
+         y="24.931486">Kinetic Plex</tspan></text><text
        xml:space="preserve"
        style="font-size:5.03672px;line-height:52.4656px;font-family:Roboto;-inkscape-font-specification:Roboto;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:25;stroke-linecap:round;stroke-opacity:1"
        x="45.549534"
@@ -267,8 +242,7 @@
          id="tspan25-1"
          style="font-style:normal;font-variant:normal;font-weight:800;font-stretch:normal;font-family:Roboto;-inkscape-font-specification:'Roboto Ultra-Bold';fill:#ffffff;fill-opacity:1;stroke-width:25"
          x="45.549534"
-         y="55.71999">Avatar</tspan></text>
-    <text
+         y="55.71999">Avatar</tspan></text><text
        xml:space="preserve"
        style="font-size:3.52778px;line-height:24.053px;font-family:Roboto;-inkscape-font-specification:Roboto;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:25;stroke-linecap:round;stroke-opacity:1"
        x="46.687988"
@@ -279,8 +253,7 @@
          id="tspan25-1-2"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;line-height:24.053px;font-family:Roboto;-inkscape-font-specification:Roboto;fill:#ffffff;fill-opacity:1;stroke-width:25"
          x="46.687988"
-         y="85.607445">Text</tspan></text>
-    <rect
+         y="85.607445">Text</tspan></text><rect
        style="opacity:0.507;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:24.9999;stroke-linecap:round;stroke-opacity:1"
        id="rect25"
        width="77.074997"
@@ -288,8 +261,7 @@
        x="14.378978"
        y="29.6814"
        rx="8"
-       inkscape:label="sub-container" />
-    <rect
+       inkscape:label="sub-container" /><rect
        style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.529168;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
        id="rect25-4"
        width="76.81041"
@@ -297,12 +269,10 @@
        x="14.378978"
        y="87.724113"
        rx="6"
-       inkscape:label="sub-container" />
-    <g
+       inkscape:label="sub-container" /><g
        id="g2"
        transform="matrix(0.02294923,0,0,0.02294923,48.424401,123.81589)"
-       style="stroke-width:11.5291" />
-    <text
+       style="stroke-width:11.5291" /><text
        xml:space="preserve"
        style="font-size:3.52777px;line-height:24.053px;font-family:Roboto;-inkscape-font-specification:Roboto;writing-mode:lr-tb;direction:ltr;opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.529167;stroke-linecap:round;stroke-opacity:1"
        x="18.278931"
@@ -317,12 +287,11 @@
          x="18.278931"
          y="118.04335"
          id="tspan10"
-         sodipodi:role="line" /></text>
-    <text
+         sodipodi:role="line" /></text><text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,0,0.52916667)"
        id="text11"
-       style="font-size:13.3333px;line-height:10px;font-family:Roboto;-inkscape-font-specification:Roboto;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect12);opacity:1;fill:#00669f;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-opacity:1"><tspan
+       style="font-size:13.3333px;line-height:10px;font-family:Roboto;-inkscape-font-specification:Roboto;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect12);display:inline;opacity:1;fill:#00669f;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-opacity:1"><tspan
          x="70.185547"
          y="353.57161"
          id="tspan2">Hello, my name is Jhon Doe!
@@ -345,6 +314,17 @@
 </tspan><tspan
          x="70.185547"
          y="403.57161"
-         id="tspan7">I'm from Narnia.</tspan></text>
-  </g>
-</svg>
+         id="tspan7">I'm from Narnia.</tspan></text><g
+       id="g5"
+       inkscape:label="close-button"
+       transform="matrix(0.83341565,0,0,0.83341565,13.388753,4.1023372)"><circle
+         style="fill:#ffffff;fill-opacity:0.35;fill-rule:nonzero;stroke:none;stroke-width:20.0833;stroke-linecap:round;stroke-opacity:1"
+         id="path25-0-3"
+         cx="88.953453"
+         cy="23.783127"
+         inkscape:label="background"
+         r="4.8019257" /><path
+         id="path1-8"
+         style="fill:none;stroke:#ffffff;stroke-width:0.691019;stroke-linecap:round;stroke-dasharray:none"
+         d="m 90.500324,22.236254 -3.093748,3.093747 m 0,-3.093747 3.093748,3.093747"
+         inkscape:label="close" /></g></g></svg>

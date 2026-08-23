@@ -1,41 +1,70 @@
 .slex-main-page-container {
-  
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  height: 100vh !important;
 }
 
 .slex-main-page-header {
-
-}
-
-.slex-main-page-close-btn {
-  position: absolute;
-  top: 12px;
-  right: 12px;
-  width: 28px;
-  height: 28px;
-  background-color: rgba(0, 0, 0, 0.05);
-  border: none;
-  border-radius: 50%;
-  cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 14px;
-  font-weight: bold;
-  color: #333;
-  transition: background-color 0.2s;
-  z-index: 10;
+  height: 20px;
+}
+
+.slex-main-page-header-title {
+  font-family: Roboto-Black;
+  font-size: 12pt;
+}
+
+.slex-main-page-header-close-button {
+  border-radius: 50px;
+  width: 30px;
+  height: 30px;
+  border: 0;
+  background: #ffffff66;
+  padding: 10px !important;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+
+.slex-main-page-header-close-button:hover {
+  background: rgba(255, 255, 255, 0.6);
+}
+
+.slex-main-page-header-close-button-icon {
+  width: 100%;
+  height: 100%;
 }
 
 .slex-main-page-close-btn:hover {
-  background-color: rgba(255, 0, 0, 0.8);
+  background-color: rgba(255, 255, 255, 0.8);
   color: white;
 }
 
 .slex-main-page-body {
-
+  display: flex;
+  flex: 1;
+  gap: 15px;
+  flex-direction: column;
 }
 
-.slex-main-page-footer {
-
+.slex-main-page-avatar-container {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.4);
+  height: 200px;
+  border-radius: 30px;
 }
 
+.slex-main-page-text {
+  font-family: Roboto-Black;
+  font-size: 13pt;
+}
+
+.slex-main-page-input-container {}
+
+.slex-main-page-footer {}

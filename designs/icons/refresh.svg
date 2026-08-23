@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="400"
+   height="400"
+   viewBox="0 0 400 400"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.2 (ebf0e940, 2025-05-08)"
+   sodipodi:docname="refresh.svg"
+   inkscape:export-filename="../../src/src/src/src/src/assets/icons/..\..\src\assets\icons\refresh.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="px"
+     showguides="true"
+     inkscape:zoom="0.39440728"
+     inkscape:cx="-143.25293"
+     inkscape:cy="594.56306"
+     inkscape:window-width="1440"
+     inkscape:window-height="900"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1">
+    <sodipodi:guide
+       position="0,272.72078"
+       orientation="1,0"
+       id="guide25"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="172.53405,400"
+       orientation="0,-1"
+       id="guide26"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="400,268.47814"
+       orientation="1,0"
+       id="guide27"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="176.77669,0"
+       orientation="0,-1"
+       id="guide28"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="box"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(204.674,63.471341)">
+    <path
+       id="path1"
+       style="fill:#ffffff;fill-opacity:1;stroke-width:37.1021"
+       d="m 133.45309,-51.759152 -30.31869,38.624731 a 185.51092,185.51092 0 0 0 -250.15703,36.026381 185.51092,185.51092 0 0 0 28.02385,260.85104 185.51092,185.51092 0 0 0 260.85104,-28.02385 185.51092,185.51092 0 0 0 5.36602,-6.99265 L 97.284385,208.48081 96.031104,208.6876 A 120.57879,120.57879 0 0 1 91.296313,214.97211 120.57879,120.57879 0 0 1 -78.251761,233.18706 120.57879,120.57879 0 0 1 -96.466705,63.638999 120.57879,120.57879 0 0 1 62.222252,37.623482 L 63.451476,37.420563 31.012592,78.748062 178.74811,89.253638 Z"
+       inkscape:export-filename="../../src/assets/icons/refresh.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+  </g>
+</svg>

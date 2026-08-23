@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="400"
+   height="400"
+   viewBox="0 0 400 400"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.4 (dcaf3e7, 2026-05-05)"
+   sodipodi:docname="close-caption.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="px"
+     showguides="true"
+     inkscape:zoom="0.74929402"
+     inkscape:cx="565.1987"
+     inkscape:cy="60.723827"
+     inkscape:window-width="1920"
+     inkscape:window-height="1052"
+     inkscape:window-x="0"
+     inkscape:window-y="28"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1">
+    <sodipodi:guide
+       position="200.39041,148.81619"
+       orientation="1,0"
+       id="guide2"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="99.999998,400"
+       orientation="0,-1"
+       id="guide3"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="330.94502,199.60959"
+       orientation="0,-1"
+       id="guide4"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="0,364.56457"
+       orientation="1,0"
+       id="guide5"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="400,226"
+       orientation="1,0"
+       id="guide6"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="374,0"
+       orientation="0,-1"
+       id="guide7"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="trash"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       id="path4"
+       style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:35;stroke-linecap:butt;stroke-dasharray:none;stroke-opacity:1"
+       d="m 618.81315,588.67811 234.08784,43.99941 m -150.21387,-107.2193 95.55099,17.51612 0.16901,79.46045 -125.0108,-23.49716 z M 623.90471,676.07774 H 840.6416 L 820.31264,888.41829 H 644.84971 Z" />
+    <path
+       id="rect1"
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke-width:2;stroke-linecap:round"
+       d="M 0,71.582029 V 328.41797 H 400 V 71.582029 Z M 40.802734,204.54883 H 206.68945 v 32.6621 H 40.802734 Z m 0,57.20898 H 153.39844 v 32.66016 H 40.802734 Z m 137.896486,0 h 180.49805 v 32.66016 H 178.69922 Z" />
+    <g
+       id="g2"
+       transform="matrix(0.64403034,0,0,0.64403034,-325.48201,433.10782)"
+       style="stroke-width:1.55272" />
+  </g>
+</svg>

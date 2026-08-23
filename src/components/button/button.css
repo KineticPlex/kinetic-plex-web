@@ -1,0 +1,26 @@
+.slex-button {
+  border-radius: 50px;
+  width: 55px;
+  height: 55px;
+  border: 0;
+  background: #ffffff66;
+  padding: 13px !important;
+}
+
+.slex-button-icon {
+  width: 100%;
+  height: 100%;
+}
+
+.slex-button:hover {
+  background: rgba(255, 255, 255, 0.6);
+}
+
+.slex-button-success {
+  background-color: #00d659;
+}
+
+.slex-button-md {
+  width: 70px;
+  height: 70px;
+}
