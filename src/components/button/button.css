@@ -3,7 +3,7 @@
   width: 55px;
   height: 55px;
   border: 0;
-  background: #ffffff66;
+  background: rgba(255, 255, 255, 0.3);
   padding: 13px !important;
 }
 
@@ -21,6 +21,7 @@
 }
 
 .slex-button-md {
+  padding: 16px !important;
   width: 70px;
   height: 70px;
 }
