@@ -12,22 +12,48 @@ interface IMainPageProps {
 
 const MainPage = (props: IMainPageProps) => {
   const [text, setText] = useState<string | null>('');
+  const [animations, setAnimations] = useState<any[]>([]);
 
-  useEffect(() => {
+  const [currentIndex, setCurrentIndex] = useState<number>(-1);
+  const [currentPlayingText, setCurrentPlayingText] = useState<string>('Esperando texto...');
+
+  const sendText = () => {
     let translationRequest: CreateOrUpdateTranslationRequest = {
-      text: 'Hola, cómo estás?'
+      text: text
     }
 
     TranslationRequestService.create(translationRequest)
       .then((result: any) => {
-        if (result.success) {
-          console.log(result);
+        if (result.success && result.data.length > 0) {
+          setAnimations(result.data);
+          setCurrentIndex(0);
         }
       })
       .catch(error => {
         console.log(error);
       });
-  }, []);
+  };
+
+  useEffect(() => {
+    if (currentIndex < 0 || currentIndex >= animations.length) {
+      if (currentIndex >= animations.length && animations.length > 0) {
+        setCurrentPlayingText('¡Secuencia terminada!');
+      }
+
+      return;
+    }
+
+    const currentAnimation = animations[currentIndex];
+
+    setCurrentPlayingText(`Reproduciendo: ${currentAnimation.text} (${currentAnimation.duration}ms)`);
+
+    const timerId = setTimeout(() => {
+      setCurrentIndex(prevIndex => prevIndex + 1);
+    }, currentAnimation.duration);
+
+    return () => clearTimeout(timerId);
+
+  }, [currentIndex, animations]);
 
   return (
     <div className={'slex-main-page-container'}>
@@ -46,7 +72,7 @@ const MainPage = (props: IMainPageProps) => {
       <div className="slex-main-page-body">
         <div className="slex-main-page-avatar-container">
           <div className="slex-main-page-text">
-            Avatar
+            {currentPlayingText}
           </div>
         </div>
 
@@ -61,8 +87,10 @@ const MainPage = (props: IMainPageProps) => {
       <div className="slex-main-page-footer">
         <div className={'slex-main-page-menu-container'}>
           <Menu
-            onRepeat={() => { }}
-            onSend={() => { }}
+            onRepeat={() => {
+              if (animations.length > 0) setCurrentIndex(0);
+            }}
+            onSend={sendText}
             onSub={() => { }}
           />
         </div>
