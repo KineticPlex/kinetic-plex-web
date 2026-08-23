@@ -1,3 +1,31 @@
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.2);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes fade {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.4;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
 .slex-button {
   border-radius: 50px;
   width: 55px;
@@ -5,6 +33,27 @@
   border: 0;
   background: rgba(255, 255, 255, 0.3);
   padding: 13px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.slex-button-is-loading {
+  animation: pulse 1s infinite ease-in-out;
+}
+
+.slex-button-is-loading > .slex-button-icon {
+  animation: fade 1s infinite ease-in-out;
+}
+
+.slex-button-disabled {
+  opacity: 0.6;
+  pointer-events: none;
+}
+
+.slex-buttonn-active {
+  background-color: #ffbe5c !important;
 }
 
 .slex-button-icon {

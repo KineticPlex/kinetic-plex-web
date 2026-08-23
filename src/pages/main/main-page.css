@@ -52,6 +52,7 @@
 }
 
 .slex-main-page-avatar-container {
+  position: relative;
   display: flex;
   flex: 1;
   justify-content: center;
@@ -65,6 +66,16 @@
 .slex-main-page-text {
   font-family: Roboto-Medium;
   font-size: 13pt;
+}
+
+.slex-main-page-sub {
+  font-family: Roboto-Black !important;
+  position: absolute;
+  bottom: 15px;
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 5px 20px 6px 20px !important;
+  border-radius: 50px;
+  color: #5c5c5c;
 }
 
 .slex-main-page-input-container {}

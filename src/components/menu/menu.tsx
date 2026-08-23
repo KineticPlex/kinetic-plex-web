@@ -1,10 +1,12 @@
 import Button from '../button/button';
 import './menu.css';
-import Repeat from '/icons/refresh.svg';
-import Plane from '/icons/papel-plane.svg';
-import Sub from '/icons/close-caption.svg';
+import Repeat from '../../assets/icons/refresh.svg';
+import Plane from '../../assets/icons/papel-plane.svg';
+import Sub from '../../assets/icons/close-caption.svg';
 
 interface IProps {
+  isLoading?: boolean;
+  isActiveSub?: boolean;
   onRepeat?: () => void;
   onSend?: () => void;
   onSub?: () => void
@@ -25,6 +27,7 @@ const Menu = (props: IProps) => {
           backgroundColorStyle={'slex-button-success'}
           sizeStyle={'slex-button-md'}
           icon={Plane}
+          isLoading={props.isLoading}
           onClick={() => props.onSend?.()}
         />
       </div>
@@ -32,6 +35,7 @@ const Menu = (props: IProps) => {
       <div className={'slex-menu-close-caption-button-container'}>
         <Button
           icon={Sub}
+          isActive={props.isActiveSub}
           onClick={() => props.onSub?.()}
         />
       </div>
