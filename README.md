@@ -23,10 +23,11 @@ yarn install
 ```
 
 ### 2. Environment Variables
-Create a `.env` file in the root directory of the project to define the Vite development server port.
+Create a .env file in the root directory of the project to define the Vite development server port and the KineticPlex Backend API URL.
 
 ```env
 VITE_PORT=9000
+VITE_API_URL=http://127.0.0.1:9001
 ```
 
 ## Development (Live Reload)
