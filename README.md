@@ -26,7 +26,7 @@ yarn install
 Create a `.env` file in the root directory of the project to define the Vite development server port.
 
 ```env
-VITE_PORT=5000
+VITE_PORT=9000
 ```
 
 ## Development (Live Reload)
@@ -51,8 +51,8 @@ Any changes you make to the React components (`.tsx`) or styles will now automat
 
 ### CORS and API Communication
 This extension is configured to communicate with the KineticPlex backend API. The `manifest.json` file explicitly grants host permissions to allow cross-origin requests:
-* `http://localhost:5001/*` (KineticPlex Backend API)
-* `http://localhost:5000/*` (Vite HMR Server)
+* `http://localhost:9001/*` (KineticPlex Backend API)
+* `http://localhost:9000/*` (Vite HMR Server)
 
 ### Background Service Worker
 The extension utilizes a background service worker (`src/background.ts`) to comply with Manifest V3 security policies and ensure Vite's development scripts are correctly authorized by the browser.
