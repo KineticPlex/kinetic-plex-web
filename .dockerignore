@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+
+# Local build files
+dist/
+dist-ssr/
+
+# Git
+.git/
+.gitignore
+
+# Local environment variables (should be injected in the pipeline or runtime)
+.env
+.env.local
+.env.*.local
+
+# Design files or documentation not needed for build
+designs/
+README.md
+
+# Docker-related files
+Dockerfile
+Dockerfile.dev
+.dockerignore

@@ -66,3 +66,73 @@ To build the extension for production (e.g., to publish on the Chrome Web Store)
 yarn build
 ```
 This will generate a highly optimized and minified `dist/` folder that you can pack and distribute.
+
+## Running with Docker
+
+You can easily run the application in an isolated environment using Docker. Ensure your `.env` file is properly configured before starting the container, as it will be loaded at runtime.
+
+### Production Environment (Nginx)
+Use this setup to test the final, optimized build of the application.
+
+**1. Build the production image:**
+```bash
+docker build -t kinetic-plex-web .
+```
+
+**2. Run the production container:**
+```bash
+docker run -d --name kinetic-plex-web-container -p 9000:9000 --env-file .env kinetic-plex-web
+```
+
+### Development Environment (Live Reloading)
+This repository includes a `Dockerfile.dev` specifically configured to run the Vite development server and mount your local files for Hot Module Replacement (HMR).
+
+**1. Build the development image:**
+```bash
+docker build -f Dockerfile.dev -t kinetic-plex-web-dev .
+```
+
+**2. Run the development container:**
+Mount your local directory to synchronize files in real-time. This command also creates an anonymous volume for `/app/node_modules` to prevent your local node_modules from overwriting the container's.
+
+*   **For Ubuntu (Linux) and Windows PowerShell:**
+    ```bash
+    docker run -d --name kinetic-plex-web-dev-container -p 9000:9000 -v "${PWD}:/app" -v /app/node_modules --env-file .env kinetic-plex-web-dev
+    ```
+*   **For Windows CMD (Command Prompt):**
+    ```cmd
+    docker run -d --name kinetic-plex-web-dev-container -p 9000:9000 -v "%cd%:/app" -v /app/node_modules --env-file .env kinetic-plex-web-dev
+    ```
+
+### Container Management Commands
+
+**Stop a container:**
+```bash
+docker stop <container-name>
+```
+
+**Start a stopped container:**
+```bash
+docker start <container-name>
+```
+
+**Remove a container:**
+```bash
+docker rm <container-name>
+```
+
+**View container logs (Troubleshooting):**
+```bash
+docker logs <container-name>
+```
+
+**View all containers:**
+```bash
+docker ps -a
+```
+
+**Access the container shell (Navigate inside):**
+```bash
+docker exec -it <container-name> sh
+```
+> **Tip:** Type `exit` when you are done to leave the container's terminal.

@@ -23,7 +23,10 @@ export default defineConfig(({ mode }) => {
         methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
         allowedHeaders: ['Content-Type', 'Authorization']
       },
-      origin: `http://localhost:${port}` 
+      origin: `http://localhost:${port}`,
+      watch: {
+        usePolling: true
+      }
     },
   }
 })
