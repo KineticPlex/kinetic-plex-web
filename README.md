@@ -89,7 +89,7 @@ This repository includes a `Dockerfile.dev` specifically configured to run the V
 
 **1. Build the development image:**
 ```bash
-docker build -f Dockerfile.dev -t kinetic-plex-web-dev .
+docker build -f Dockerfile.dev -t kinetic-plex-web .
 ```
 
 **2. Run the development container:**
@@ -97,11 +97,11 @@ Mount your local directory to synchronize files in real-time. This command also 
 
 *   **For Ubuntu (Linux) and Windows PowerShell:**
     ```bash
-    docker run -d --name kinetic-plex-web-dev-container -p 9000:9000 -v "${PWD}:/app" -v /app/node_modules --env-file .env kinetic-plex-web-dev
+    docker run -d --name kinetic-plex-web-container -p 9000:9000 -v "${PWD}:/app" -v /app/node_modules --env-file .env kinetic-plex-web
     ```
 *   **For Windows CMD (Command Prompt):**
     ```cmd
-    docker run -d --name kinetic-plex-web-dev-container -p 9000:9000 -v "%cd%:/app" -v /app/node_modules --env-file .env kinetic-plex-web-dev
+    docker run -d --name kinetic-plex-web-container -p 9000:9000 -v "%cd%:/app" -v /app/node_modules --env-file .env kinetic-plex-web
     ```
 
 ### Container Management Commands

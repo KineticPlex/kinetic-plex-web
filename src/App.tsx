@@ -1,6 +1,37 @@
 import React, { useState, useEffect, useRef } from 'react';
 import MainPage from './pages/main/main-page';
 
+const injectFonts = () => {
+  const fontStyles = `
+    @font-face {
+      font-family: 'Roboto-Black';
+      src: url('${chrome.runtime.getURL('fonts/roboto/Roboto-Black.ttf')}') format('truetype');
+    }
+    @font-face {
+      font-family: 'Roboto-Bold';
+      src: url('${chrome.runtime.getURL('fonts/roboto/Roboto-Bold.ttf')}') format('truetype');
+    }
+    @font-face {
+      font-family: 'Roboto-Medium';
+      src: url('${chrome.runtime.getURL('fonts/roboto/Roboto-Medium.ttf')}') format('truetype');
+    }
+    @font-face {
+      font-family: 'Roboto-Regular';
+      src: url('${chrome.runtime.getURL('fonts/roboto/Roboto-Regular.ttf')}') format('truetype');
+    }
+    @font-face {
+      font-family: 'Roboto-Light';
+      src: url('${chrome.runtime.getURL('fonts/roboto/Roboto-Light.ttf')}') format('truetype');
+    }
+  `;
+
+  const styleElement = document.createElement('style');
+  styleElement.textContent = fontStyles;
+  document.head.appendChild(styleElement);
+};
+
+injectFonts();
+
 const App: React.FC = () => {
   const [isVisible, setIsVisible] = useState(false);
   const [isClosing, setIsClosing] = useState(false);

@@ -30,7 +30,6 @@ const MainPage = (props: IMainPageProps) => {
     TranslationRequestService.create(translationRequest)
       .then((result: any) => {
         if (result.success && result.data.length > 0) {
-          console.log(result);
           setAnimations(result.data);
           setCurrentIndex(0);
           setIsLoading(false);
@@ -44,8 +43,6 @@ const MainPage = (props: IMainPageProps) => {
   };
 
   useEffect(() => {
-    console.log('dfsdf', activeSub);
-
     if (currentIndex < 0 || currentIndex >= animations.length) {
       if (currentIndex >= animations.length && animations.length > 0) {
         setCurrentPlayingText('¡Secuencia terminada!');
