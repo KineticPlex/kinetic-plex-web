@@ -7,13 +7,13 @@
 
 .sign-language-ext-panel {
   padding: 20px 30px 30px 30px;
-  width: 400px;
-  height: 550px;
+  width: 350px;
+  height: 500px;
   background: linear-gradient(to bottom, rgba(0, 255, 137, 0.6), rgba(0, 163, 255, 0.6));
   color: #ffffff; 
   backdrop-filter: blur(8px);
   border-radius: 35px;
-  box-shadow: 0 50px 40px -30px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 50px 40px -30px rgba(0, 0, 0, 0.2);
   overflow: hidden;
   display: flex;
   flex-direction: column;
