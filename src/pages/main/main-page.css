@@ -15,7 +15,7 @@
 .slex-main-page-header-title {
   font-family: Roboto-Black;
   font-size: 12pt;
-  color: #008d4b
+  color: #02703d
 }
 
 .slex-main-page-header-close-button {
@@ -24,7 +24,7 @@
   width: 30px;
   height: 30px;
   border: 0;
-  background: rgba(255, 255, 255, 0.4);
+  background: #00de76;
   padding: 10px !important;
   position: absolute;
   top: 15px;
@@ -32,17 +32,13 @@
 }
 
 .slex-main-page-header-close-button:hover {
-  background: rgba(255, 255, 255, 0.6);
+  cursor: pointer;
+  background: #02c96c;
 }
 
 .slex-main-page-header-close-button-icon {
   width: 100%;
   height: 100%;
-}
-
-.slex-main-page-close-btn:hover {
-  background-color: rgba(255, 255, 255, 0.8);
-  color: white;
 }
 
 .slex-main-page-body {

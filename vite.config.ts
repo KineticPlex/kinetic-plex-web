@@ -13,9 +13,12 @@ export default defineConfig(({ mode }) => {
       crx({ manifest }),
     ],
     server: {
+      host: true,
       port: port,
       strictPort: true,
       hmr: {
+        host: 'localhost',
+        clientPort: port,
         port: port,
       },
       cors: {
