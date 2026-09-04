@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useEffectEvent, useState } from 'react';
 import './main-page.css';
 import TranslationRequestService from '../../services/translation-request-service';
 import type { CreateOrUpdateTranslationRequest } from '../../dtos/translation-requests/create-or-update-translation-request';
@@ -15,10 +15,27 @@ const MainPage = (props: IMainPageProps) => {
   const [animations, setAnimations] = useState<any[]>([]);
   const [isLoading, setIsLoading] = useState(false);
   const [activeSub, setActiveSub] = useState(false);
+  const [selectedText, setSelectedText] = useState('');
 
   const [currentIndex, setCurrentIndex] = useState<number>(-1);
   const [currentPlayingText, setCurrentPlayingText] = useState<string>('Esperando texto...');
   const [currentPlayingName, setCurrentPlayingName] = useState<string | null>(null);
+
+  useEffect(() => {
+    const handleSelectionChange = () => {
+      const highlightedText = window.getSelection()?.toString() || '';
+
+      if (highlightedText.trim().length > 0) {
+        setSelectedText(highlightedText);
+      }
+    };
+
+    document.addEventListener('selectionchange', handleSelectionChange);
+
+    return () => {
+      document.removeEventListener('selectionchange', handleSelectionChange);
+    };
+  }, []);
 
   const sendText = () => {
     setIsLoading(true);
@@ -97,6 +114,7 @@ const MainPage = (props: IMainPageProps) => {
         <div className={'slex-main-page-input-container'}>
           <Textarea
             title={'Text'}
+            value={selectedText}
             onChange={(value: string | null) => setText(value)}
           />
         </div>
