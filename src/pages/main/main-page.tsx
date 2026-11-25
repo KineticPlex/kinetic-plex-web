@@ -98,10 +98,11 @@ const MainPage = (props: IMainPageProps) => {
 
       <div className="slex-main-page-body">
         <div className="slex-main-page-avatar-container">
-          <div className="slex-main-page-text">
-            {currentPlayingText}
-          </div>
-
+          <iframe
+            className="slex-main-page-godot-iframe"
+            src={chrome.runtime.getURL('godot/index.html')}
+            title="KineticPlex 3D Avatar"
+          />
           {
             (activeSub && currentPlayingName) && (
               <div className="slex-main-page-sub">
