@@ -6,12 +6,12 @@
   display: flex;
   justify-content: center;
   font-family: Roboto-Medium;
-  font-size: 11pt;
+  font-size: 9.5pt;
   color: #02703d;
   background-color: rgba(255, 255, 255, 0.6);
   border-radius: 20px 20px 0 0;
-  padding-top: 8px !important;
-  padding-bottom: 26px !important;
+  padding-top: 5px !important;
+  padding-bottom: 23px !important;
   margin-bottom: -20px !important;
 }
 
@@ -19,10 +19,10 @@
   font-family: Roboto-Medium;
   border: 0 !important; 
   width: 100%;
-  height: 130px !important;
+  height: 88px !important;
   border-radius: 0 0 20px 20px;
   outline: 0 !important;
-  padding: 15px 15px 10px 15px !important;
+  padding: 10px 12px 8px 12px !important;
   color: #02703d;
   background-color: #ffffff;
 }

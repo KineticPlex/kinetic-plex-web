@@ -2,7 +2,9 @@
   display: flex;
   flex-direction: column;
   gap: 15px;
-  height: 100vh !important;
+  height: 100% !important;
+  flex: 1;
+  min-height: 0;
 }
 
 .slex-main-page-header {
@@ -44,6 +46,7 @@
 .slex-main-page-body {
   display: flex;
   flex: 1;
+  min-height: 0;
   gap: 15px;
   flex-direction: column;
 }
@@ -52,6 +55,8 @@
   position: relative;
   display: flex;
   flex: 1;
+  min-height: 0;
+  overflow: hidden;
   justify-content: center;
   align-items: center;
   background-color: rgba(255, 255, 255, 0.6);
